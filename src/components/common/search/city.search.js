@@ -8,8 +8,7 @@ import { getLocationApi } from '../../../services';
 const { Search } = Input;
 
 const CitySearchComponent = (props) => {
-  const { handleCitySelection } = props;
-  const [cities, setCities] = useState();
+  const {handleCitySelection } = props;
   const [loading, setLoading] = useState(false)
 
   const fetchLocation = (val) => {
@@ -24,7 +23,6 @@ const CitySearchComponent = (props) => {
       },
       successCallback: (response) => {
         if (response) {
-          setCities(response)
           handleCitySelection(response[0])
         }
       }
