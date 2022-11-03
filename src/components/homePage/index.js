@@ -33,7 +33,7 @@ const HomePage = (props) => {
                       <h1>
                         {Math.floor(forecast?.Temperature?.Minimum?.Value)} <span class="sub">°{forecast?.Temperature?.Minimum?.Unit}</span>
                       </h1>
-                      <img src={getImageByKey(`img_${forecast?.Day?.Icon}`)} class="card__abs__image"/>
+                      <img src={getImageByKey(`img_${forecast?.Day?.Icon}`)} class="card__abs__image" alt={forecast?.Day?.Icon}/>
                       </>
                     )
                   })}
