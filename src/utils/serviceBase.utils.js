@@ -1,5 +1,4 @@
 import { BASE_URL } from "../constants/url";
-var authToken;
 
 export const getApiCall = ({ url, dispatch }) => {
   let finalUrl = `${BASE_URL}/${url}`;

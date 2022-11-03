@@ -4,7 +4,6 @@ import moment from 'moment';
 import CitySearchComponent from '../common/search/city.search';
 import sunrise from '../../img/sunrise_icon.png';
 import getImageByKey from '../common/images';
-import Item from 'antd/lib/list/Item';
 
 const HomePage = (props) => {
   const { loading, forecastData, cityData } = props;
