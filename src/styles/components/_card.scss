@@ -1,0 +1,33 @@
+.card__weather{
+    .ant-card-body{
+        text-align: 24px;
+        h1{
+            font-size: 5em;
+            margin-bottom: 0;
+        }
+        .sub{
+            font-size: 20px;
+            vertical-align: text-top;
+            margin-left: -10px;
+        }
+        .card__country{
+            font-size: 20px;
+            margin-bottom: 0px;
+            letter-spacing: 1px;
+        }
+        .card__category{
+            text-transform: capitalize;
+            font-size: 16px;
+            text-align: center;
+            padding: 4px;
+            display: inline;
+            border-radius: 4px;
+        }
+        .card__abs__image{
+            position: absolute;
+            right: 18px;
+            top: 12px;
+        }
+          
+    }
+}

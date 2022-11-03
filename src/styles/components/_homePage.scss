@@ -1,0 +1,61 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:100vh;
+}
+
+.wrapper{
+  margin-top: 20vh;
+  &__search-input{
+    width:500px !important;
+    border-radius:20px !important;
+  }
+}
+
+.results{
+  margin-top:35px;
+}
+
+.img__small{
+  width: 18px;
+  margin: 0px 6px;
+}
+
+
+
+/** Overrides for ant design **/
+.ant-input-lg{
+  height: 40px;
+}
+.ant-input-search-button{
+  width: 56px !important;
+  height: 56px !important;
+  background: #1a73e8 !important;
+  color: white !important;
+  .anticon-search{
+    font-size: 26px !important;
+  }
+}
+.ant-input-suffix{
+  .anticon-close-circle{
+    font-size: 18px;
+  }
+}
+
+
+.ant-card{
+  width: 500px;
+  text-align: left;
+  background: #fff;
+  margin-top: 10px;
+  border: 5px solid #1a73e8 !important;
+  box-shadow: rgba(0, 0, 0, 0.3) 7px 7px 0px 0px;
+}
+
+.ant-input-wrapper{
+  border: 2px solid #1b73e8;
+}
+.ant-input-affix-wrapper{
+  border: none !important;
+}
